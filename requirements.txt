@@ -1,0 +1,24 @@
+# Core libraries
+streamlit==1.35.0
+torch==2.3.0
+numpy>=1.22.0
+
+# Whisper for transcription
+git+https://github.com/openai/whisper.git
+
+# Audio processing
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# Optional: summarization using transformers
+transformers>=4.41.0
+sentencepiece>=0.1.99
+
+# File uploads, progress
+tqdm>=4.66.0
+
+# For system compatibility
+scipy>=1.10.0
+
+# Avoid warnings about unsafe pickle in future
+protobuf>=3.20.0
